@@ -1,0 +1,85 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.hhh.attendancesystemv2.Studentlistclass"
+
+    android:background="#ffffff">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/linearLayout"
+        android:background="#ffffff">
+
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:background="#157E5F"
+            android:id="@+id/gatenamegate"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="3dp"
+            android:paddingLeft="3dp"
+            android:gravity="center"
+            android:text="Gate"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"/>
+
+    <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/classnamegate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Class"
+            android:textColor="#157E5F"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+        <NumberPicker
+            android:id="@+id/numberPickergate"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+
+            android:layout_marginStart="15dp"
+            />
+
+
+        <Button
+            android:id="@+id/button5gate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.Button"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:text="Change class" />
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/recyclerview_id"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="400dp"></android.support.v7.widget.RecyclerView>
+
+
+    ></RelativeLayout>

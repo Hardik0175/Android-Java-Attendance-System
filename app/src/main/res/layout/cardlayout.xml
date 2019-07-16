@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/mymenubackground"
+    android:padding="3dp">
+    <ImageView
+        android:id="@+id/studentpicture"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:scaleType="centerCrop"
+        android:background="#2d2d2d"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+        <TextView
+
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:gravity="bottom"
+            android:text="Name:"
+            android:textColor="#2d2d2d"
+            android:textSize="13sp" />
+
+        <TextView
+
+            android:id="@+id/namestudent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:gravity="bottom"
+            android:text="Book Title"
+            android:textColor="#2d2d2d"
+            android:textSize="13sp" />
+
+            <TextView
+
+                android:id="@+id/lnamestudent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:gravity="bottom"
+                android:text="Book Title"
+                android:textColor="#2d2d2d"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+
+            android:id="@+id/classnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+            android:gravity="bottom"
+            android:text="Class:"
+            android:textColor="#2d2d2d"
+            android:textSize="13sp" />
+            <TextView
+
+                android:id="@+id/classinput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:gravity="bottom"
+                android:text="Book Title"
+                android:textColor="#2d2d2d"
+                android:textSize="13sp" />
+            <TextView
+
+                android:id="@+id/agenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:gravity="bottom"
+                android:text="Age:"
+                android:textColor="#2d2d2d"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/ageinput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:gravity="bottom"
+                android:text="Book Title"
+                android:textColor="#2d2d2d"
+                android:textSize="13sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+
+                android:id="@+id/cardnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:gravity="bottom"
+                android:text="Card No:"
+                android:textColor="#2d2d2d"
+                android:textSize="13sp" />
+            <TextView
+
+                android:id="@+id/cardinput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:gravity="bottom"
+                android:text="0000000000"
+                android:textColor="#2d2d2d"
+                android:textSize="13sp" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+
+                android:id="@+id/phonenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:gravity="bottom"
+                android:text="Phone No:"
+                android:textColor="#2d2d2d"
+                android:textSize="13sp" />
+            <TextView
+
+                android:id="@+id/phoneinput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:gravity="bottom"
+                android:text="0000000000"
+                android:textColor="#2d2d2d"
+                android:textSize="13sp" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:id="@+id/statusnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Status:"
+                android:textColor="#2d2d2d"
+                android:textSize="13sp" />
+
+            <TextView
+
+                android:id="@+id/presentnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Present"
+                android:textColor="#2d2d2d"
+                android:textSize="10sp" />
+            <android.support.v7.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:id="@+id/radiopresnt"
+                />
+            <TextView
+
+                android:id="@+id/absentnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Abesnt"
+                android:textColor="#2d2d2d"
+                android:textSize="10sp" />
+            <android.support.v7.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:id="@+id/radioabsent"
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+
+                android:id="@+id/picroutenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="5dp"
+                android:gravity="bottom"
+                android:text="Pick route:"
+                android:textColor="#2d2d2d"
+                android:textSize="13sp" />
+            <TextView
+
+                android:id="@+id/picrouteinput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="5dp"
+                android:gravity="bottom"
+                android:text="NULL"
+                android:textColor="#2d2d2d"
+                android:textSize="10sp" />
+            <TextView
+
+                android:id="@+id/droproutenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="5dp"
+                android:gravity="bottom"
+                android:text="Drop route:"
+                android:textColor="#2d2d2d"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/droprouteinput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="5dp"
+                android:gravity="bottom"
+                android:text="NULL"
+                android:textColor="#2d2d2d"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

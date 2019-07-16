@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id"
+            android:icon="@drawable/ic_id_black_24dp"
+            android:title="ID" />
+
+    </group>
+
+    <item android:title="Fields to choose">
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/Class"
+                android:icon="@drawable/ic_class_black_24dp"
+                android:title="Class" />
+            <item
+                android:id="@+id/Route"
+                android:icon="@drawable/ic_bus_black_24dp"
+                android:title="Route" />
+            <item
+                android:id="@+id/Gate"
+                android:icon="@drawable/ic_gate_black_24dp"
+                android:title="Gate" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Admin">
+        <menu>
+            <group android:checkableBehavior="single">
+
+
+                <item
+                    android:id="@+id/Studentlist"
+                    android:icon="@drawable/ic_student_black_24dp"
+                    android:title="Students List" />
+                <item
+                    android:id="@+id/addnew"
+                    android:icon="@drawable/ic_astudenadd_black_24dp"
+                    android:title="Add-new" />
+                <item
+                    android:id="@+id/Setting"
+                    android:icon="@drawable/ic_settings_black_24dp"
+                    android:title="Setting" />
+
+            </group>
+        </menu>
+    </item>
+</menu>
